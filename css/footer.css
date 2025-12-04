@@ -1,0 +1,71 @@
+.footer {
+    text-align: start;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 3px;
+    background-color: #333;
+    color: #d9dbe1;
+}
+
+.footer-company {
+    padding-left: 30px;
+}
+
+.footer-legal {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-rights {
+    font-size: 14px;
+    border-top: 1px solid rgb(91, 91, 91);
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa-instagram {
+    background: #333333;
+    color: white;
+}
+
+.fa-dribbble {
+    background: #333333;
+    color: white;
+}
+
+.fa-twitter {
+    background: #333333;
+    color: white;
+}
+
+.fa-youtube {
+    background: #333333;
+    color: white;
+}
+
+@media (min-width: 600px) {
+    .footer-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

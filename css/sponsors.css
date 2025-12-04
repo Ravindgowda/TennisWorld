@@ -1,0 +1,37 @@
+.sponsors {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    justify-items: center;
+    align-items: center;
+    padding: 3rem 0;
+}
+.sponsor__text {
+    text-align: center;
+    color: var(--border-color);
+}
+.sponsor__logo__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+    gap: 10%;
+    flex-direction: row;
+}
+.sponsor__logo {
+    width: 6rem;
+}
+
+/* mobile view */
+@media (max-width: 780px) {
+    .sponsor__logo {
+        width: 4rem;
+        margin: .5rem;
+    }
+    .sponsors {
+        padding: 1rem;
+    }
+}

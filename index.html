@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <script src="jscript\script.js" defer></script>
+    <script src="jscript/programs.js" defer></script>
+    <title>TennisWorld</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__content">
+            <img src="images/tennis_world_final_logo.png" alt="Logo" class="logo">
+            <nav class="header__nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Products</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">About</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="hamburger__menu">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+            </div>
+        </div>
+        <h1 class="header__heading">Life is better with a racket in hand and a court beneath your feet</h1>
+        <p class="header__footnote">Every shot is a chance to start the point — and the match — all over again.</p>
+    </header>
+    <main class="main">
+        <img class="main-image" src="./images/main-image.jpg" alt="main image" style="display: initial;">
+        <div data-tab="Home" class="tab home__tab">
+            <section class="sponsors">
+                <p class="sponsor__text">
+                    " TRUSTED BY THE WORLD'S BEST "
+                </p>
+                <div class="sponsor__logo__container">
+                    <img src="./images/Head-Tennis-Logo.png" class="sponsor__logo">
+                    <img src="./images/Wilson-Tennis-Logo.png" class="sponsor__logo">
+                    <img src="./images/Yonex-Tennis-Logo.png" class="sponsor__logo">
+                    <img src= "./images/Dunlop-Tennis-Logo-500x281.png" class="sponsor__logo">
+                    <img src="./images/Nike-Tennis-Logo.png" class="sponsor__logo">
+                </div>
+            </section>  
+            <section class="programs">
+                <div class="program_images">
+                    <img src="./images/kids.jpg" class="program_image selected__tab" data-tab="toddler_tennis">
+                    <img src="./images/beginners.jpg" class="program_image" data-tab="beginner_tennis">
+                    <img src="./images/intermediate.jpg" class="program_image" data-tab="intermediate_tennis">
+                    <img src="./images/professionals.jpg" class="program_image" data-tab="professional_tennis">
+                </div>
+                <ul class="program__groups">
+                    <li>
+                        <button data-tab="toddler_tennis" class="program__levels selected__button">
+                            <h3>Toddler Tennis</h3>
+                            <p>Fun introduction to tennis for ages 3-5.</p>
+                        </button>
+                    </li>
+                    <li>
+                        <button data-tab="beginner_tennis" class="program__levels">
+                            <h3>Beginner Tennis</h3>
+                            <p>Learn the basics and develop fundamental skills.</p>
+                        </button>
+                    </li>
+                    <li>
+                        <button data-tab="intermediate_tennis" class="program__levels">
+                            <h3>Intermediate Tennis</h3>
+                            <p>Enhance techniques and match play strategies.</p>
+                        </button>
+                    </li>
+                    <li>
+                        <button data-tab="professional_tennis" class="program__levels">
+                            <h3>Professional Tennis</h3>
+                            <p>Advanced training for competitive players.</p>
+                        </button>
+                    </li>
+                </ul>
+            </section>
+            <section class="facts">
+                <h2> Some Facts About Us!</h2>
+                <div class="facts_container">
+                    <div class="fact_box">
+                        <!-- <img> tag can be added here for visual representation-->
+                        <h4 class="fact_box_title"> About Us</h4>
+                        <p class="fact_box_description">Get to know us more!</p>
+                    </div>
+                    <div class="fact_box">
+                        <h4 class="fact_box_title"> Friendly Time</h4>
+                        <p class="fact_box_description">get to make new friends & memories.</p>
+                    </div>
+                    <div class="fact_box">
+                        <h4 class="fact_box_title"> Best Coaches</h4>
+                        <p class="fact_box_description">Learn from the best in the field.</p>
+                    </div>
+                    <div class="fact_box">
+                        <h4 class="fact_box_title"> friendly Tournaments</h4>
+                        <p class="fact_box_description">Participate in exciting competitions.</p>
+                    </div>
+                    <div class="fact_box">
+                        <h4 class="fact_box_title"> Top Facilities</h4>
+                        <p class="fact_box_description">Train in world-class environments.</p>
+                    </div>
+                    <div class="fact_box">
+                        <h4 class="fact_box_title"> Blister up</h4>
+                        <p class="fact_box_description">We will put a plaster on it.</p>
+                    </div>
+                </div>
+            </section>  
+            <section class="newsletter">
+                <div class="signup_card">
+                    <h2 class="signup_card_heading">Sign up for our daily updates</h2>
+                    <p class="signup_card_text">Stay updated with the latest news and offers.</p>
+                    <button class="signup_card_button"> Sign up for free </button>
+                </div>
+                <img class="signup_card_image" src="./images/signup_card_image.jpg">
+            </section> 
+            <section class="testimonials">
+                <h2 class="testimonials_heading">What people think about us</h2>
+                <div class="testimonial_cards">
+                        <q class="testimonial_text" data-tab="Ravind">
+                            "TennisWorld has transformed my game! The coaches are top-notch and the facilities are amazing."
+                        </q>
+
+                        <q class="testimonial_text" data-tab="Namratha">
+                            "I love the friendly atmosphere at TennisWorld. It's a great place to play and have fun!"
+                        </q>
+
+                        <q class="testimonial_text" data-tab="Amruthi">
+                            "The programs at TennisWorld are well-structured and cater to all skill levels. Highly recommend!"
+                        </q>
+                </div>
+                <div class="testimonial_avatars">
+                        <button class="testimonial_button" data-tab="Ravind">
+                             <img src="./images/Ravind.jpg" class="button_portrait">
+                             <div class="button_text">
+                                <h3>Ravind Gowda</h3>
+                                <p>Student</p>
+                             </div>
+                        </button>
+                        <button class="testimonial_button" data-tab="Namratha">
+                             <img src="./images/Namratha.jpg" class="button_portrait">
+                             <div class="button_text">
+                                <h3>Namratha Chandru</h3>
+                                <p>Professional</p>
+                             </div>
+                        </button>
+                        <button class="testimonial_button" data-tab="Amruthi">
+                             <img src="./images/Amruthi.jpg" class="button_portrait">
+                             <div class="button_text">
+                                <h3>Amruthi Gowda</h3>
+                                <p>Parent</p>
+                             </div>
+                        </button>
+                </div>
+                <button class="testimonial_button" data-tab="big_button"> 
+                    All Statistics are made up!
+                </button>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-section">
+                <div class="footer-company">
+                    <h4>Company</h4>
+                    <p>About Us</p>
+                    <p>Contact us</p>
+                </div>
+                <br />
+                <div class="footer-legal">
+                    <h4>Legal</h4>
+                    <p>Cookie Policy</p>
+                    <p>Privacy Policy</p>
+                    <p>Terms of Service</p>
+                </div>
+            </div>
+            <div class="footer-end">
+                <div class="footer-statements">
+                     <p class="footer-rights">&copy; 2024 - All rights reserved</p>
+                </div>
+                <div class="footer-socials">
+                     <a href="#" class="fa fa-instagram"></a>
+                     <a href="#" class="fa fa-dribbble"></a>
+                     <a href="#" class="fa fa-twitter"></a>
+                     <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+    </footer>
+</body>
+</html>
