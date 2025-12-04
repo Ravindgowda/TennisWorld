@@ -4,7 +4,7 @@ const programImages = document.querySelectorAll(".program_image");
 
 programButtons.forEach((button) => {
     button.addEventListener("click", () => {
-        const targetTab = button.dataset.tab; // "beginner_tennis"
+        const targetTab = button.dataset.tab; // "beginner_tennis " or "intermediate_tennis" or "advanced_tennis"
 
         // 1) Remove previous active classes
         const currentActiveButton = document.querySelector(".program__levels.selected__button");
